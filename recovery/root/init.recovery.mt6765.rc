@@ -84,7 +84,7 @@ service mobicore /vendor/bin/mcDriverDaemon --P1 /mnt/vendor/persist/mcRegistry 
     -r /vendor/app/mcRegistry/08080000000000000000000000000000.tlbin \
     -r /vendor/app/mcRegistry/08110000000000000000000000000000.tabin \
     -r /vendor/app/mcRegistry/04010000000000000000000000000008.tlbin \
-    -r /vendor/app/mcRegistry/05220000000000000000000000000000.tlbin \
+    -r /vendor/app/mcRegistry/05220000000000000000000000000000.tlbin 
     user root
     group root
     disabled
